@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    padding: 30px;
+    display: inline;
+    border-radius: 50px;
+    text-shadow: 2px 3px 2px white;
+    box-shadow: 3px 3px 5px 3px grey;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+
+.main_div {
+    display: flex;
+    margin: 100px 0;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.instagram {
+    width: 80px;
+}
+
+.telegram {
+    width: 90px;
+}
+
+.tiktok {
+    width: 100px;
+}
+
+.red{
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: -13px;
+    right: 0;
+    left: 58px;
+    font-family: "Inter", sans-seri;
+}
+
+.box1{
+    position: relative;
+}
+
+/* .red{
+    position: absolute;
+    top: -13px;
+    right: 0;
+    left: 58px;
+    font-family: "Inter", sans-serif;
+} */
+
+.red2{
+    background-color: red;
+    border-radius: 50px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: -9px;
+    right: 0;
+    left: 48px;
+    font-family: "Inter", sans-serif;
+}
+
+.red3{
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    left: 69px;
+    font-family: "Inter", sans-serif;
+}
